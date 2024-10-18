@@ -114,7 +114,7 @@ function Home() {
                 <Modal.Body>
                     <input type="text" value={editEmp.firstname} onChange={(e) => { setEditEmp({ ...editEmp, firstname: e.target.value }) }} className='form-control mb-3' />
                     <input type="text" value={editEmp.lastname} onChange={(e) => { setEditEmp({ ...editEmp, lastname: e.target.value }) }} className='form-control mb-3' />
-                    <input type="text" value={editEmp.age} onChange={(e) => { setEditEmp({ ...editEmp, age: e.target.value }) }} className='form-control b-3' />
+                    <input type="text" value={editEmp.age} onChange={(e) => { setEditEmp({ ...editEmp, age: e.target.value }) }} className='form-control mb-3' />
                     <input type="text" value={editEmp.qualification} onChange={(e) => { setEditEmp({ ...editEmp, qualification: e.target.value }) }} className='form-control mb-3' />
                     <input type="text" value={editEmp.email} onChange={(e) => { setEditEmp({ ...editEmp, email: e.target.value }) }} className='form-control mb-3' />
                 </Modal.Body>
