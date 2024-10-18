@@ -1,0 +1,8 @@
+.cll{
+    transition: ease-in-out;
+}
+
+.cll:hover{
+    transform: scale(.9);
+    background-color: lavender;
+}
